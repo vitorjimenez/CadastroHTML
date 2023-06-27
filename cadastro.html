@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+
+<body>
+    <header id="headerCadastro">
+        <h2>Cadastro</h2>
+        <h5>Digite suas informações, lembre-se que elas não seram utilizadas para nada além do registro.</h5>
+        <p>Voltar ao <a href="index.html">menu.</a></p>
+    </header>
+
+    <section id="mainCadastro">
+
+        <form action="" method="get">
+        <fieldset id="userInformation">            
+            <legend>Digite suas informações</legend>
+
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nomeCadastro" class="fieldset" maxlength="200" placeholder="Digite seu nome" required>
+            <br>
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" id="emailCadastro" class="fieldset" maxlength="200" placeholder="Exemplo@mail.com" required>
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senhaCadastro" class="fieldset" maxlength="200" placeholder="Digite sua senha" required>
+            <br>
+        </fieldset>
+        <br>
+        <fieldset id="userAdress">
+            <legend>Seu endereço</legend>
+            <label for="uf">UF:</label>
+            <textarea name="UF" id="ufCadastro" cols="2" rows="1" maxlength="2" required></textarea>
+            <br>
+            <label for="nome">Cidade:</label>
+            <input type="text" name="nome" id="nomeCadastro" class="fieldset" maxlength="200" placeholder="Digite seu nome" required>
+            <br>
+            <label for="nome">Rua:</label>
+            <input type="text" name="nome" id="nomeCadastro" class="fieldset" maxlength="200" placeholder="Digite seu nome" required>
+            <br>
+            <label for="casaNumero">Número:</label>
+            <textarea name="casaNumero" id="casaNumero" cols="10" rows="1" maxlength="10" required placeholder="Número de sua casa"></textarea >
+            <br>
+            <label for="CEP">CEP:</label>
+            <textarea name="CEP" id="cepCadastro" cols="10" class="fieldset" rows="1" maxlength="10" required placeholder="Seu CEP"></textarea >
+        </fieldset>
+        <br>
+        <fieldset id="userAbout">
+            <legend>Sobre você</legend>
+
+            <Label class="fieldset">Sua área de atuação:</Label>
+            <Select required  class="fieldset">
+                <option value="fullStack">FullStack</option>
+                <option value="Cloud">Cloud</option>
+                <option value="FullStackCloud">FullStack e Cloud</option>
+                <option value="outro">Outro</option>
+            </Select><br>
+            <label for="Bio"  class="fieldset">Sua bio:</label> <br>
+            <textarea name="" id="" cols="30" rows="5" placeholder="Nos conte um pouco sobre você, onde mora e com o que sabe trabalhar." required  class="fieldset"></textarea> <br>
+            
+           <Label for="Outro" class="fieldset"> Caso tenha escolhido "outro", digite qual outra tecnologia você tem afinidade, senão apenas deixe em branco:</Label> <br>
+            <input type="text" name="Outro" class="fieldset" id="Outro" maxlength="50">
+        </fieldset>
+        <footer class="footer">
+        <a href="index.html"><input type="submit" value="Cadastrar" class="button""></a>
+        <input type="reset" value="Apagar tudo" id="cancelButton">
+        </footer>
+        </form>
+    </section>
+</body>
+</html>

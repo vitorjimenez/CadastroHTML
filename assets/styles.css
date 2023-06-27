@@ -1,0 +1,95 @@
+*{
+    font-family: sans-serif;
+}
+
+#mainSite{
+    text-align: center;
+    /*background: rgb(199,149,171);
+    background: radial-gradient(circle, rgba(199,149,171,1) 0%, rgba(83,210,241,1) 100%);*/
+}
+
+#header{
+    padding: 3px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+    background: rgb(0,4,36);
+    background: linear-gradient(90deg, rgba(0,4,36,1) 0%, rgba(22,186,169,1) 35%, rgba(0,255,216,1) 98%);
+
+}
+
+#main{
+    padding: 40px;
+    font: bolder;
+}
+
+.button{
+    padding: 15px;
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;   
+    cursor: pointer;
+}
+
+#headerCadastro{
+    font-size: 25px;
+    padding: 2px;
+    font: bolder;
+    text-decoration: none;
+}
+
+#mainCadastro{
+    margin: 10px 0px;
+    padding: 10px;
+    
+}
+
+#userInformation{
+    margin: 10px 0px;
+    
+}
+
+#footerCadastro{
+    padding: 15px;
+}
+
+#cancelButton{
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    
+    background-color: red;
+}
+
+#headerLogin{
+    font-size: 20px;
+    margin: 10px;
+    
+}
+
+
+#mainLogin{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.fieldset{
+    padding: 3px;
+    margin: 4px;
+    font-size: 20px;
+} 
+
+.footer{
+    margin: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
